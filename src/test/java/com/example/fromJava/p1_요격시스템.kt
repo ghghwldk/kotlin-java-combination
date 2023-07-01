@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class 요격시스템 {
+class p1_요격시스템 {
     @Test
     fun test(): Unit{
         // Initialize parameter
