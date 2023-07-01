@@ -10,15 +10,13 @@ class p10_호텔대실 {
     public fun test(): Unit{
         // given
         val inputBookTime = arrayOf(
-                arrayOf("10:00", "11:00"),
-                arrayOf("12:00", "13:00"),
-                arrayOf("11:30", "12:30"),
-                arrayOf("14:00", "15:00"),
-                arrayOf("13:30", "14:30"),
+                arrayOf("10:20", "12:30"),
+                arrayOf("10:20", "12:30"),
+                arrayOf("10:20", "12:30"),
         )
 
         val result = solution(inputBookTime)
-        val expectedOutput = 2
+        val expectedOutput = 3
         assertEquals(expectedOutput, result)
     }
 
